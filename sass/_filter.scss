@@ -1,0 +1,17 @@
+@use "var";
+
+#filter{
+    display: flex;
+    justify-content: start;
+    padding-top: 200px;
+    font-family: 'Cabin', sans-serif;
+}
+
+.filter__content{
+    color: white;
+
+    i{
+        cursor: pointer;
+        padding-left: 80px;
+    }
+}
